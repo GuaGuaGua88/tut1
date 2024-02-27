@@ -7,7 +7,7 @@ entry:
     // Uncomment the line below and replace "<Ex 1.0>" with the first
     // (non-zero) digit in your student number.
 
-    ldi r16, n
+    ldi r16, 1
     call avremu_r16out
 
     // Ex 1.1
@@ -23,7 +23,7 @@ entry:
     // Uncomment the line below and replace "<Ex 1.2>" with the third
     // digit in your student number.
 
-    ldi r16, 1
+    ldi r16, 5
     call avremu_r16out
 
     // Ex 1.3
@@ -31,7 +31,7 @@ entry:
     // Uncomment the line below and replace "<Ex 1.3>" with the fourth
     // digit in your student number.
 
-    ldi r16, 5
+    ldi r16, 6
     call avremu_r16out
 
     // Ex 1.4
